@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid img { 
+    width: 150px;
+    background-color: white;
+    border: outset;
+    border-radius: 15px;
+    box-shadow: inset 7px 7px 12px gold,
+                 7px 7px 12px red;
+   border-color:black;
+   border-width: 5px;
+
+    
+}
+.menu-bar{
+    background-color:#3D195B;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 20px;
+    
+}
+
+.nav-item {
+  display: flex;
+}
+
+.navbar .nav-item a{
+color:white!important;
+}
+
+.navbar .nav-item a:hover{
+    background: #f5005f ;
+}
+
+.navbar .dropdown-menu{
+    background-color: #f5005f;
+
+}
+
+.navbar .dropdown-menu .dropdown-item:hover{
+background-color: #3D195B;
+
+}
+.navbar button{
+    background-color: #f5005f;
+    color: white;
+}
+.subtitle{
+   
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin:100PX auto;
+    max-width: 600px;
+    font-family: 'Abril Fatface', cursive;
+    color: #FE8802;
+}
+.subtitle :hover{
+    background-color: #3D195B;
+}
+
+h1:before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    
+    z-index: -5;
+}
+
+h1:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -5;
+}
+
+
+
+.container .card {
+    border-color:#3D195B;
+    border-radius: 13px;
+    border-width: 8px;
+}
+
+.container .btn {
+    background:#f5005f;
+    
+}
+
+.card-body h5{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.card-body p{
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: 14px;
+}
+.container .box {
+  
+    margin-left: 230px;    
+}
+
+.container .box{
+    border-color:black;
+    border-radius: 15px;
+}
+
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: all 1.5s ease;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.thinks{
+     
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin:100PX auto;
+    max-width: 600px;
+}
+.thinks h2{
+    color:darkorange;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.thinks h2:hover{
+background-color: #3D195B;
+}
+
+h2:before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    
+    z-index: -5;
+}
+
+h2:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -5;
+}
+
+
+
+.graph img{
+    max-width: 140px;
+    margin-left: 25%;
+   margin-top: 11px;
+   z-index: 2;
+   position:absolute;
+    
+}
+.track{ 
+    border: outset;
+    border-color:#3D195B;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 100px;
+    background-color: #FE8802;
+    margin-left: 33%;
+    margin-right: 28%;  
+    transform: skew(20deg);  
+}
+
+.track h3{
+    margin-left: 180px;
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+    text-transform:uppercase;
+    margin-top: 3px;
+}
+.track button{
+    width: 180px;
+    margin-left: 33%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    text-transform: uppercase;
+ 
+}
+.track button:hover{
+
+ box-shadow: inset 7px 7px 12px crimson,
+                inset 7px 7px 12px white;
+
+                border-color: black;
+                
+}
+
+.cross-line{
+
+    background-color:#3D195B;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 16%;
+    margin-right: 8%;
+    border-radius: 9px;
+}
+
+.cross-line:hover{
+
+    background-color: black;
+}
+
+.logo img{
+
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.over-line{
+    background-color:#3D195B;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 16%;
+    margin-right: 8%;
+    border-radius: 9px;
+}
+
+.over-line:hover{
+    background-color: black;
+}
+
+
+
+footer{
+ background: linear-gradient(to right,#00093c,#2d0b00);
+ width: 100%;
+ color: white;
+ margin-top: 70px;
+ height: auto;
+ padding: 50px 100px;
+ position: relative;
+ border-bottom-right-radius: 400px;
+ border-top-left-radius: 150px;
+ 
+}
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+footer.container .sec p{
+    color: white;
+}
+.sci img{
+    
+    width: 35px;
+}
+
+.sci{
+    margin-top: 10px;
+    display: grid;
+    font-size: 10px;
+}
+
+.sci li{
+    list-style: none;
+    font-size: 40px;
+    
+}
+
+.sci li a{
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+
+
+
+
+
+.quicklinks{
+    position: relative;
+    margin-left: 20px;
+}
+
+.quicklinks li{
+    list-style: none;
+    
+}
+
+.quicklinks li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom:10px;
+    display: inline-block;
+    margin-top: 25px;
+
+    
+    
+}
+.fulled img{
+    
+    background-color: white;
+    margin-left: 50%;
+    height: 50%;
+    border-radius: 10px;
+
+}
+
+.fulled img:hover{
+    box-shadow: inset 7px 7px 12px red,
+     7px 7px 12px gold;
+
+}
+
+.copyrighttext{
+    background:#FE8802;
+    color:white;
+    margin-right: 26%;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    border-width: 15px;
+    border: outset;
+    border-color: black;
+    font-size: 16px;
+}
+.copyrighttext:hover{
+    color: black;
+}
